@@ -1,0 +1,10 @@
+<h1>Compliments Index</h1>
+
+<div class="row">
+  {{#each compliments}}
+    <div class="col-sm-3">
+      <h2><a href="/compliments/{{this._id}}">{{this.compliment}}</a></h2>
+      <small>{{this.author}}</small>
+    </div>
+  {{/each}}
+</div>

@@ -1,0 +1,15 @@
+<div class="row">
+  <div id="test" class="col-sm-6 col-sm-offset-3">
+    <h1>{{compliment.compliment}}</h1>
+    <h2>-{{compliment.author}}</h2>
+    <h3>{{compliment.time}}</h3>
+  </div>
+</div>
+
+
+<div>
+     <span style="float:right"><p><a href="/compliments/{{compliment._id}}/edit">Edit</a></p>
+     <p><form method="POST" action="/compliments/{{compliment._id}}?_method=DELETE">
+         <button class="btn btn-primary" type="submit">Delete</button>
+     </form></p></span>
+   </div>
