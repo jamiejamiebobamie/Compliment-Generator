@@ -1,23 +1,29 @@
+
 <fieldset>
   <legend>Add a compliment!</legend>
 
 
-  <!-- DESCRIPTION -->
+  <!-- Body // "Description" -->
   <div class="form-group">
     <label for="compliment-description">Compliment</label><br>
     <textarea class="form-control" id="compliment-description" name="compliment" rows="10" />{{compliment.compliment}}</textarea>
   </div>
 
-  <!-- TITLE -->
+  <!-- Author // User -->
   <div class="form-group">
     <label for="compliment-autho">Author</label><br>
     <input class="form-control" id="compliment-autho" type="text" name="author" value="{{compliment.author}}"/>
   </div>
 
-  <!-- MOVIE TITLE -->
+  <!-- time stamp -->
   <div class="form-group">
-    <label for="timestamp">Time</label><br>
     <input class="form-control" id="timestamp" type="hidden" name="timestamp" value="{{compliment.time}}" />
+  </div>
+
+  <!-- hashtag -->
+  <div class="form-group">
+    <label for="hashtag">Group</label><br>
+    <input class="form-control" id="hashtag" type="text" name="hashtag" value="{{compliment.hashtag}}" />
   </div>
 
 <!-- <script> NOT IMPLEMENTED :: TIMESTAMP FOR COMPLIMENTS
