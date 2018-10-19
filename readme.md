@@ -1,4 +1,7 @@
-This is a web application launched with nodemon that uses a mongodb database. Users submit compliments to the database. A random entry is pulled from the database and displayed when the user visits the main page. Only the admin can edit/update and delete compliments, and see an index of all compliments in the database.
+This is a web application launched with nodemon. Users submit compliments to a mongodb database. A random entry is pulled from the database and displayed when the user visits the main page. Only the admin can edit/update and delete compliments, and see an index of all compliments in the database.
+
+
+LIVE WEBSITE: https://compliments-jtm.herokuapp.com
 
 
 
@@ -20,10 +23,14 @@ An attribute on the Compliment model, "number" type. Meant to timestamp the comp
 
 
 
-Pie in the sky // v3.0 features that have NOT been implemented:
+v3.0 features that have NOT been implemented:
 
 NEW RESOURCE: "User"
 
-User profiles consisting of "identities" curate the experience. Users' "in-groups" determine which compliments are generated.
+User profiles consisting of "identities" curate the experience. Users' "groups" determine which compliments appear on the homepage.
 
-Compliments are created with a user-input, hashtag field, like "#blackgirlmagic" for example that allows for user-created fields and identities. The hashtags will be associated with both the compliment with which they are assigned and with the user profile that assigned it. Once assigning "#blackgirlmagic", the user is then able to see other compliments with this hashtag and effectively joins this in-group. This creates "bottom-up" identities, in which the user creates and assigns herself the identity, instead of a "top-down" approach of pre-determined fields/categories, chosen from a drop-down menu.
+Users assign hashtags like "#blackgirlmagic" (for example) to compliments that allow for user-created identities. The hashtags are associated with both compliments and user profiles. Once assigning "#blackgirlmagic" to a compliment, the user is then able to see other compliments with this hashtag and effectively joins this group.
+
+This creates "bottom-up" identities, in which the user creates and assigns herself an identity, instead of a "top-down" approach with pre-determined fields/categories, chosen from a drop-down menu.
+
+Also: to join a group you have to contribute to it, which forces content creation, at least initially.
