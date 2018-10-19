@@ -1,5 +1,7 @@
 This is a web application launched with nodemon. Users submit compliments to a mongodb database. A random entry is pulled from the database and displayed when the user visits the main page. Only the admin can edit/update and delete compliments, and see an index of all compliments in the database.
 
+The code follows the standard MVC architecture, and CRUDS a single resource: compliments.
+
 
 LIVE WEBSITE: https://compliments-jtm.herokuapp.com
 
