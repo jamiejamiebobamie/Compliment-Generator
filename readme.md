@@ -29,10 +29,6 @@ v3.0 features that have NOT been implemented:
 
 NEW RESOURCE: "User"
 
-User profiles consisting of "identities" curate the experience. Users' "groups" determine which compliments appear on the homepage.
+Users assign hashtags to compliments. The hashtags are associated with both the compliment they are assigned to and the user profile that assigns them. After assigning a hashtag to a compliment, the user is then able to see compliments with this hashtag.
 
-Users assign hashtags like "#blackgirlmagic" (for example) to compliments that allow for user-created identities. The hashtags are associated with both compliments and user profiles. Once assigning "#blackgirlmagic" to a compliment, the user is then able to see other compliments with this hashtag and effectively joins this group.
-
-This creates "bottom-up" identities, in which the user creates and assigns herself an identity, instead of a "top-down" approach with pre-determined fields/categories, chosen from a drop-down menu.
-
-Also: to join a group you have to contribute to it, which forces content creation, at least initially.
+User profiles consisting of hashtag associations curate the experience, determining which compliments appear on the users’ homepage. This encourages content creation: In order to see the desired compliments, the user must submit their own original compliment with the desired hashtag.
